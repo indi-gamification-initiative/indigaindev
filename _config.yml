@@ -1,0 +1,38 @@
+# GitHub Pages Configuration for Indi Gamification Initiative
+title: "Indi Gamification Initiative"
+description: "Transforming Development Through Gamification - Level Up Your Code!"
+url: "https://indi-gamification-initiative.github.io"
+baseurl: "/indigaindev"
+
+# Theme
+theme: minima
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO and Social
+author: "Indi Gamification Initiative"
+twitter:
+  username: IndiGamifyDev
+  card: summary_large_image
+social:
+  name: Indi Gamification Initiative
+  links:
+    - https://github.com/indi-gamification-initiative
+    - https://twitter.com/IndiGamifyDev
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - .bundle/
+  - .git/
+  - .gitignore
+  - README_backup.md
