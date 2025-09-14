@@ -261,19 +261,19 @@ export default function Research() {
             <h2>📚 Recommended Reading</h2>
             <div className={styles.readingList}>
               <div className={styles.paper}>
-                <h4>"Gamification in Software Engineering: A Systematic Literature Review"</h4>
+                <h4>&quot;Gamification in Software Engineering: A Systematic Literature Review&quot;</h4>
                 <p className={styles.authors}>Johnson, M., Chen, L., & Rodriguez, A. (2023)</p>
                 <p>Comprehensive analysis of 127 studies on gamification applications in software development environments.</p>
               </div>
 
               <div className={styles.paper}>
-                <h4>"The Psychology of Motivation in Developer Learning Environments"</h4>
+                <h4>&quot;The Psychology of Motivation in Developer Learning Environments&quot;</h4>
                 <p className={styles.authors}>Thompson, K., & Williams, R. (2022)</p>
                 <p>Explores intrinsic vs. extrinsic motivation factors in programming education and professional development.</p>
               </div>
 
               <div className={styles.paper}>
-                <h4>"Behavioral Economics and Software Development Productivity"</h4>
+                <h4>&quot;Behavioral Economics and Software Development Productivity&quot;</h4>
                 <p className={styles.authors}>Davis, P., Lee, S., & Anderson, T. (2023)</p>
                 <p>Examines how behavioral economics principles can be applied to improve software development team performance.</p>
               </div>
