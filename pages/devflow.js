@@ -285,7 +285,7 @@ export default function DevFlow() {
 
           <section className={styles.ctaSection}>
             <h2>🚀 Transform Your Development Workflow</h2>
-            <p>Ready to gamify your team's development process and boost productivity?</p>
+            <p>Ready to gamify your team&apos;s development process and boost productivity?</p>
             <div className={styles.ctaButtons}>
               <Link href="/getting-started" className={styles.primaryCta}>
                 Start Free Trial

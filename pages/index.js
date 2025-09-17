@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,10 +14,10 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.badges}>
-          <img src="https://komarev.com/ghpvc/?username=indi-gamification-initiative&color=blueviolet&style=for-the-badge" alt="Visitors" />
-          <img src="https://img.shields.io/badge/Made%20with-❤️-for%20Developers-ff69b4.svg?style=for-the-badge" alt="Made with Love" />
-          <img src="https://img.shields.io/badge/Open%20Source-💚-brightgreen.svg?style=for-the-badge" alt="Open Source" />
-          <img src="https://img.shields.io/badge/Innovation-🚀-orange.svg?style=for-the-badge" alt="Innovation" />
+          <Image src="https://komarev.com/ghpvc/?username=indi-gamification-initiative&color=blueviolet&style=for-the-badge" alt="Visitors" width={200} height={35} />
+          <Image src="https://img.shields.io/badge/Made%20with-❤️-for%20Developers-ff69b4.svg?style=for-the-badge" alt="Made with Love" width={250} height={35} />
+          <Image src="https://img.shields.io/badge/Open%20Source-💚-brightgreen.svg?style=for-the-badge" alt="Open Source" width={180} height={35} />
+          <Image src="https://img.shields.io/badge/Innovation-🚀-orange.svg?style=for-the-badge" alt="Innovation" width={150} height={35} />
         </div>
 
         <div className={styles.hero}>
@@ -26,7 +27,7 @@ export default function Home() {
           <h3 className={styles.subtitle}>
             <em>Transforming Development Through Gamification</em>
           </h3>
-          <img src="https://img.shields.io/badge/🏆%20Level%20Up%20Your%20Code-Game%20On!-success?style=for-the-badge&logo=trophy" alt="Gamification Banner" />
+          <Image src="https://img.shields.io/badge/🏆%20Level%20Up%20Your%20Code-Game%20On!-success?style=for-the-badge&logo=trophy" alt="Gamification Banner" width={300} height={35} />
         </div>
 
         <div className={styles.separator}></div>
@@ -35,16 +36,16 @@ export default function Home() {
           <section className={styles.section}>
             <h2>🧭 Quick Navigation</h2>
             <div className={styles.quickNav}>
-              <a href="/getting-started" className={styles.navCard}>
+              <Link href="/getting-started" className={styles.navCard}>
                 <div className={styles.navIcon}>🚀</div>
                 <h3>Getting Started</h3>
                 <p>Begin your gamified development journey</p>
-              </a>
-              <a href="/research" className={styles.navCard}>
+              </Link>
+              <Link href="/research" className={styles.navCard}>
                 <div className={styles.navIcon}>📊</div>
                 <h3>Research & Data</h3>
                 <p>Academic studies and proven methodologies</p>
-              </a>
+              </Link>
               <a href="/docs" className={styles.navCard}>
                 <div className={styles.navIcon}>📚</div>
                 <h3>Documentation</h3>
@@ -79,7 +80,7 @@ export default function Home() {
                 <li>📊 <strong>Leaderboards</strong>: Weekly/monthly coding competitions with real rewards</li>
               </ul>
               <div className={styles.initiativeLinks}>
-                <a href="/codequest" className={styles.learnMore}>Learn More →</a>
+                <Link href="/codequest" className={styles.learnMore}>Learn More →</Link>
               </div>
             </div>
 
@@ -95,7 +96,7 @@ export default function Home() {
                 <li>🎁 <strong>Achievement System</strong>: Unlock rewards for reaching development milestones</li>
               </ul>
               <div className={styles.initiativeLinks}>
-                <a href="/devflow" className={styles.learnMore}>Learn More →</a>
+                <Link href="/devflow" className={styles.learnMore}>Learn More →</Link>
               </div>
             </div>
 
@@ -206,23 +207,23 @@ export default function Home() {
 
             <div className={styles.socialLinks}>
               <a href="https://github.com/indi-gamification-initiative" target="_blank" rel="noopener noreferrer">
-                <img src="https://img.shields.io/badge/GitHub-indi--gamification--initiative-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Organization" />
+                <Image src="https://img.shields.io/badge/GitHub-indi--gamification--initiative-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Organization" width={350} height={35} />
               </a>
               <a href="mailto:initiative@indigaindev.org" target="_blank" rel="noopener noreferrer">
-                <img src="https://img.shields.io/badge/Email-initiative@indigaindev.org-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+                <Image src="https://img.shields.io/badge/Email-initiative@indigaindev.org-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" width={350} height={35} />
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer">
-                <img src="https://img.shields.io/badge/Discord-Join%20Our%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+                <Image src="https://img.shields.io/badge/Discord-Join%20Our%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" width={300} height={35} />
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer">
-                <img src="https://img.shields.io/badge/Twitter-@IndiGamifyDev-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+                <Image src="https://img.shields.io/badge/Twitter-@IndiGamifyDev-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" width={280} height={35} />
               </a>
             </div>
 
             <h3>🏆 Current Status: Building the Future</h3>
             <div className={styles.statusBadges}>
-              <img src="https://img.shields.io/badge/Development-In%20Progress-yellow?style=for-the-badge&logo=construction" alt="Progress" />
-              <img src="https://img.shields.io/badge/Contributors-Welcome-brightgreen?style=for-the-badge&logo=handshake" alt="Contributors Welcome" />
+              <Image src="https://img.shields.io/badge/Development-In%20Progress-yellow?style=for-the-badge&logo=construction" alt="Progress" width={250} height={35} />
+              <Image src="https://img.shields.io/badge/Contributors-Welcome-brightgreen?style=for-the-badge&logo=handshake" alt="Contributors Welcome" width={280} height={35} />
             </div>
 
             <div className={styles.footer}>
