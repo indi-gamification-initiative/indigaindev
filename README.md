@@ -56,6 +56,74 @@ Gamify the open source contribution experience to encourage community participat
 
 ---
 
+## 🔐 TrustVault PWA - Featured Project
+
+<div align="center">
+
+### 🎮 **Level Up Your Security Game**
+
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-trust--vault--pwa.vercel.app-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://trust-vault-pwa.vercel.app)
+[![Install PWA](https://img.shields.io/badge/📱%20Install%20PWA-Android%20%7C%20iOS%20%7C%20Desktop-4285F4?style=for-the-badge&logo=pwa&logoColor=white)](https://trust-vault-pwa.vercel.app)
+
+<br/>
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://trust-vault-pwa.vercel.app" alt="TrustVault QR Code" width="200" height="200">
+
+**Scan to install TrustVault PWA on any device** 📲
+
+</div>
+
+### 🏆 **Gamified Security Excellence**
+
+<div align="center">
+
+| 🏆 **OWASP Top 10 2025** | ⚡ **Lighthouse Score** | 🎯 **Architecture** |
+|:---:|:---:|:---:|
+| ✅ Fully Compliant | 95+ Performance | Zero-Knowledge Security |
+
+</div>
+
+**TrustVault** is our flagship gamification initiative that transforms credential management into an engaging developer achievement system. Built as a Progressive Web App, it showcases how security can be both robust and enjoyable through gamified user experiences.
+
+### 🗺️ **Developer Achievement Roadmap**
+
+```
+Level 1: Beginner Security Warrior 🛡️
+  └─> Install TrustVault PWA
+  
+Level 2: Credential Apprentice 🔑
+  └─> Store your first secure credential
+  
+Level 3: Offline Warrior 💪
+  └─> Access credentials without internet
+  
+Level 4: Encryption Master 🔐
+  └─> Master zero-knowledge encryption
+  
+Level 5: PWA Champion 🏆
+  └─> Unlock all platform features
+  
+FINAL BOSS: Security Guild Leader 👑
+  └─> Contribute to TrustVault development
+```
+
+### 🎯 **Quick Start Your Security Quest**
+
+<div align="center">
+
+**Choose Your Platform:**
+
+[![Android Install](https://img.shields.io/badge/Android-Install%20PWA-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://trust-vault-pwa.vercel.app)
+[![iOS Install](https://img.shields.io/badge/iOS-Add%20to%20Home-000000?style=for-the-badge&logo=apple&logoColor=white)](https://trust-vault-pwa.vercel.app)
+[![Windows Install](https://img.shields.io/badge/Windows-Install%20App-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://trust-vault-pwa.vercel.app)
+[![Mac Install](https://img.shields.io/badge/macOS-Install%20App-000000?style=for-the-badge&logo=apple&logoColor=white)](https://trust-vault-pwa.vercel.app)
+
+</div>
+
+> 💡 **Pro Tip**: Check out our [detailed SHOWCASE.md](./SHOWCASE.md) for achievement badges, XP metrics, and the complete security quest guide!
+
+---
+
 ## 🎯 Why Gamification in Development?
 
 <div align="center">
