@@ -1,0 +1,477 @@
+/* Research-specific styles - inherit base styles from Initiative.module.css */
+.container {
+  padding: 0 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  color: white;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 2rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+}
+
+.navLink {
+  color: #E0E7FF;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.navLink:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #FFD700;
+  transform: translateY(-2px);
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 3rem 0;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  background: linear-gradient(45deg, #FFD700, #FFA500, #FF6347);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  color: #E0E7FF;
+  font-weight: 300;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.content {
+  width: 100%;
+}
+
+.section {
+  margin-bottom: 4rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2.5rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  color: #FFD700;
+  text-align: center;
+}
+
+.section p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #E0E7FF;
+  margin-bottom: 2rem;
+}
+
+.ctaSection {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 3rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.ctaSection h2 {
+  color: #FFD700;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.ctaSection p {
+  color: #E0E7FF;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.primaryCta {
+  background: linear-gradient(45deg, #FFD700, #FFA500);
+  color: #000;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+}
+
+.primaryCta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 215, 0, 0.4);
+}
+
+.secondaryCta {
+  background: rgba(255, 255, 255, 0.1);
+  color: #E0E7FF;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.secondaryCta:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+.studyGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.studyCard {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.studyCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.studyCard h3 {
+  color: #FFD700;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+.studyMeta {
+  color: #FFA500;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.studyCard p {
+  color: #E0E7FF;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.studyStats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.studyStats span {
+  background: rgba(255, 215, 0, 0.2);
+  color: #FFD700;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.findingsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.findingCard {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.findingCard:hover {
+  transform: scale(1.02);
+}
+
+.findingCard h4 {
+  color: #FFA500;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.statHighlight {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #FFD700;
+  display: block;
+  margin: 1rem 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.findingCard p {
+  color: #E0E7FF;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.findingCard ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+}
+
+.findingCard li {
+  color: #B8C5FF;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.findingCard li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #FFD700;
+  font-weight: bold;
+}
+
+.methodologyGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.methodCard {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.methodCard h4 {
+  color: #FFA500;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.methodCard ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.methodCard li {
+  color: #E0E7FF;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.methodCard li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: #FFD700;
+}
+
+.caseStudies {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.caseStudyCard {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.caseStudyCard:hover {
+  transform: translateY(-5px);
+}
+
+.caseStudyHeader {
+  background: rgba(255, 215, 0, 0.1);
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.caseStudyHeader h3 {
+  color: #FFD700;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.caseStudyDuration {
+  background: rgba(255, 165, 0, 0.2);
+  color: #FFA500;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.caseStudyContent {
+  padding: 2rem;
+}
+
+.caseStudyMetrics {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.metric {
+  text-align: center;
+  flex: 1;
+  min-width: 120px;
+}
+
+.metricValue {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #00FF7F;
+  margin-bottom: 0.5rem;
+}
+
+.metricLabel {
+  color: #E0E7FF;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.caseStudyContent p {
+  color: #E0E7FF;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.readingList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.paper {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #FFD700;
+}
+
+.paper h4 {
+  color: #FFD700;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+.authors {
+  color: #FFA500;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.paper p:last-child {
+  color: #E0E7FF;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .studyGrid,
+  .findingsGrid,
+  .methodologyGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .caseStudyHeader {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .caseStudyMetrics {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .metric {
+    min-width: auto;
+  }
+
+  .statHighlight {
+    font-size: 2.5rem;
+  }
+}
+
+/* Animation for smooth entry */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.studyCard,
+.findingCard,
+.methodCard,
+.caseStudyCard,
+.paper {
+  animation: fadeInUp 0.6s ease-out;
+}

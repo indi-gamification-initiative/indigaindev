@@ -32,6 +32,34 @@ export default function Home() {
         <div className={styles.separator}></div>
 
         <div className={styles.content}>
+          <section className={styles.section}>
+            <h2>🧭 Quick Navigation</h2>
+            <div className={styles.quickNav}>
+              <a href="/getting-started" className={styles.navCard}>
+                <div className={styles.navIcon}>🚀</div>
+                <h3>Getting Started</h3>
+                <p>Begin your gamified development journey</p>
+              </a>
+              <a href="/research" className={styles.navCard}>
+                <div className={styles.navIcon}>📊</div>
+                <h3>Research & Data</h3>
+                <p>Academic studies and proven methodologies</p>
+              </a>
+              <a href="/docs" className={styles.navCard}>
+                <div className={styles.navIcon}>📚</div>
+                <h3>Documentation</h3>
+                <p>API references and technical guides</p>
+              </a>
+              <a href="/demos" className={styles.navCard}>
+                <div className={styles.navIcon}>🎮</div>
+                <h3>Live Demos</h3>
+                <p>Try our platforms in action</p>
+              </a>
+            </div>
+          </section>
+
+          <div className={styles.separator}></div>
+
           <p className={styles.welcome}>
             🌟 <strong>Welcome to the Indi Gamification Initiative!</strong> We&apos;re on a mission to revolutionize how developers learn, collaborate, and grow by infusing the power of gamification into the development ecosystem.
           </p>
@@ -50,6 +78,9 @@ export default function Home() {
                 <li>🎖️ <strong>Guild System</strong>: Team up with other developers for collaborative projects</li>
                 <li>📊 <strong>Leaderboards</strong>: Weekly/monthly coding competitions with real rewards</li>
               </ul>
+              <div className={styles.initiativeLinks}>
+                <a href="/codequest" className={styles.learnMore}>Learn More →</a>
+              </div>
             </div>
 
             <div className={styles.initiative}>
@@ -63,6 +94,9 @@ export default function Home() {
                 <li>🏆 <strong>Team Challenges</strong>: Sprint-based team competitions</li>
                 <li>🎁 <strong>Achievement System</strong>: Unlock rewards for reaching development milestones</li>
               </ul>
+              <div className={styles.initiativeLinks}>
+                <a href="/devflow" className={styles.learnMore}>Learn More →</a>
+              </div>
             </div>
 
             <div className={styles.initiative}>
@@ -76,6 +110,9 @@ export default function Home() {
                 <li>👥 <strong>Mentorship Matching</strong>: Connect learners with experienced developers</li>
                 <li>📈 <strong>Progress Tracking</strong>: Detailed analytics on learning journey</li>
               </ul>
+              <div className={styles.initiativeLinks}>
+                <a href="/learning" className={styles.learnMore}>Learn More →</a>
+              </div>
             </div>
 
             <div className={styles.initiative}>
@@ -89,6 +126,9 @@ export default function Home() {
                 <li>🎊 <strong>Hackathon Integration</strong>: Seamlessly organize and participate in coding events</li>
                 <li>📝 <strong>Documentation Quests</strong>: Make documentation writing engaging and rewarding</li>
               </ul>
+              <div className={styles.initiativeLinks}>
+                <a href="/opensource" className={styles.learnMore}>Learn More →</a>
+              </div>
             </div>
           </section>
 
