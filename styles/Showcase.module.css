@@ -1,0 +1,355 @@
+.container {
+  min-height: 100vh;
+  padding: 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.main {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.backLink {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.backLink a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.backLink a:hover {
+  color: #764ba2;
+  transform: translateX(-5px);
+  display: inline-block;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 800px;
+  margin: 1rem auto;
+  line-height: 1.6;
+}
+
+.loading, .error {
+  text-align: center;
+  padding: 3rem;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  margin: 2rem 0;
+}
+
+.spinner {
+  font-size: 4rem;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error {
+  color: #e74c3c;
+  font-weight: 600;
+}
+
+.repositoriesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.repoCard {
+  background: rgba(255, 255, 255, 0.98);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  border: 3px solid transparent;
+}
+
+.repoCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+  border-color: #667eea;
+}
+
+.repoHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.repoName {
+  font-size: 1.8rem;
+  margin: 0;
+  color: #2c3e50;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.repoIcon {
+  font-size: 2rem;
+}
+
+.repoMeta {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.language {
+  background: #667eea;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.stars {
+  font-weight: 600;
+  color: #f39c12;
+  font-size: 1rem;
+}
+
+.repoDescription {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.topic {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.4rem 0.9rem;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.technicalSection,
+.systemSection,
+.productSection,
+.downloadSection {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border-left: 4px solid #667eea;
+}
+
+.technicalSection h3,
+.systemSection h3,
+.productSection h3,
+.downloadSection h3 {
+  margin: 0 0 1rem 0;
+  color: #2c3e50;
+  font-size: 1.3rem;
+}
+
+.techDetails,
+.systemDetails,
+.productDetails {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.techItem,
+.systemItem,
+.productItem {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.techItem strong,
+.systemItem strong,
+.productItem strong {
+  color: #667eea;
+  display: inline-block;
+  min-width: 100px;
+}
+
+.featureList {
+  margin: 0.5rem 0 0 1.5rem;
+  padding: 0;
+}
+
+.featureList li {
+  margin: 0.3rem 0;
+  color: #555;
+}
+
+.downloadButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.downloadButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.downloadButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+}
+
+.downloadIcon {
+  font-size: 1.3rem;
+}
+
+.repoLinks {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid #e9ecef;
+}
+
+.githubLink,
+.homepageLink {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.3rem;
+  border: 2px solid #667eea;
+  color: #667eea;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  flex: 1;
+  justify-content: center;
+}
+
+.githubLink:hover,
+.homepageLink:hover {
+  background: #667eea;
+  color: white;
+  transform: scale(1.05);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.footer a {
+  color: #667eea;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #764ba2;
+}
+
+.footerNote {
+  color: #777;
+  font-size: 0.95rem !important;
+  font-style: italic;
+}
+
+@media (max-width: 1024px) {
+  .repositoriesGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .repoName {
+    font-size: 1.5rem;
+  }
+
+  .repoHeader {
+    flex-direction: column;
+  }
+
+  .repoMeta {
+    width: 100%;
+  }
+
+  .downloadButtons {
+    flex-direction: column;
+  }
+
+  .downloadButton {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .repoLinks {
+    flex-direction: column;
+  }
+}

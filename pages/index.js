@@ -35,6 +35,11 @@ export default function Home() {
           <section className={styles.section}>
             <h2>🧭 Quick Navigation</h2>
             <div className={styles.quickNav}>
+              <a href="/showcase" className={styles.navCard}>
+                <div className={styles.navIcon}>⭐</div>
+                <h3>Starred Repositories</h3>
+                <p>Explore our curated projects with technical details</p>
+              </a>
               <a href="/getting-started" className={styles.navCard}>
                 <div className={styles.navIcon}>🚀</div>
                 <h3>Getting Started</h3>
@@ -44,11 +49,6 @@ export default function Home() {
                 <div className={styles.navIcon}>📊</div>
                 <h3>Research & Data</h3>
                 <p>Academic studies and proven methodologies</p>
-              </a>
-              <a href="/docs" className={styles.navCard}>
-                <div className={styles.navIcon}>📚</div>
-                <h3>Documentation</h3>
-                <p>API references and technical guides</p>
               </a>
               <a href="/demos" className={styles.navCard}>
                 <div className={styles.navIcon}>🎮</div>
