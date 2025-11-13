@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
@@ -35,26 +36,26 @@ export default function Home() {
           <section className={styles.section}>
             <h2>🧭 Quick Navigation</h2>
             <div className={styles.quickNav}>
-              <a href="/getting-started" className={styles.navCard}>
+              <Link href="/showcase" className={styles.navCard}>
+                <div className={styles.navIcon}>⭐</div>
+                <h3>Starred Repositories</h3>
+                <p>Explore our curated projects with technical details</p>
+              </Link>
+              <Link href="/getting-started" className={styles.navCard}>
                 <div className={styles.navIcon}>🚀</div>
                 <h3>Getting Started</h3>
                 <p>Begin your gamified development journey</p>
-              </a>
-              <a href="/research" className={styles.navCard}>
+              </Link>
+              <Link href="/research" className={styles.navCard}>
                 <div className={styles.navIcon}>📊</div>
                 <h3>Research & Data</h3>
                 <p>Academic studies and proven methodologies</p>
-              </a>
-              <a href="/docs" className={styles.navCard}>
-                <div className={styles.navIcon}>📚</div>
-                <h3>Documentation</h3>
-                <p>API references and technical guides</p>
-              </a>
-              <a href="/demos" className={styles.navCard}>
+              </Link>
+              <Link href="/demos" className={styles.navCard}>
                 <div className={styles.navIcon}>🎮</div>
                 <h3>Live Demos</h3>
                 <p>Try our platforms in action</p>
-              </a>
+              </Link>
             </div>
           </section>
 
@@ -79,7 +80,7 @@ export default function Home() {
                 <li>📊 <strong>Leaderboards</strong>: Weekly/monthly coding competitions with real rewards</li>
               </ul>
               <div className={styles.initiativeLinks}>
-                <a href="/codequest" className={styles.learnMore}>Learn More →</a>
+                <Link href="/codequest" className={styles.learnMore}>Learn More →</Link>
               </div>
             </div>
 
@@ -95,7 +96,7 @@ export default function Home() {
                 <li>🎁 <strong>Achievement System</strong>: Unlock rewards for reaching development milestones</li>
               </ul>
               <div className={styles.initiativeLinks}>
-                <a href="/devflow" className={styles.learnMore}>Learn More →</a>
+                <Link href="/devflow" className={styles.learnMore}>Learn More →</Link>
               </div>
             </div>
 
