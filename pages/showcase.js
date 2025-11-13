@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import styles from '../styles/Showcase.module.css';
 
@@ -214,7 +215,7 @@ export default function Showcase() {
       <main className={styles.main}>
         <div className={styles.header}>
           <div className={styles.backLink}>
-            <a href="/">← Back to Home</a>
+            <Link href="/">← Back to Home</Link>
           </div>
           
           <h1 className={styles.title}>
