@@ -1,210 +1,154 @@
-![Visitors](https://komarev.com/ghpvc/?username=indi-gamification-initiative&color=blueviolet&style=for-the-badge)
-[![Made with Love](https://img.shields.io/badge/Made%20with-❤️-for%20Developers-ff69b4.svg?style=for-the-badge)](https://github.com/indi-gamification-initiative)
-[![Open Source](https://img.shields.io/badge/Open%20Source-💚-brightgreen.svg?style=for-the-badge)](https://github.com/indi-gamification-initiative)
-[![Innovation](https://img.shields.io/badge/Innovation-🚀-orange.svg?style=for-the-badge)](#initiatives)
+![Profile Views](https://komarev.com/ghpvc/?username=iAn-P1nt0&color=blueviolet&style=for-the-badge)
+[![Security First](https://img.shields.io/badge/Security-First-red.svg?style=for-the-badge&logo=shield)](https://github.com/iAn-P1nt0/TrustVault-PWA)
+[![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-brightgreen.svg?style=for-the-badge&logo=github)](https://github.com/iAn-P1nt0)
+[![AI/ML](https://img.shields.io/badge/AI%2FML-Explorer-blue.svg?style=for-the-badge&logo=tensorflow)](#technical-interests)
 
 <div align="center">
 
-# 🎮 Indi Gamification Initiative 
-### *Transforming Development Through Gamification*
+# Ian Pinto
+### *Software Developer | Security Enthusiast | AI Explorer*
 
-![Gamification Banner](https://img.shields.io/badge/🏆%20Level%20Up%20Your%20Code-Game%20On!-success?style=for-the-badge&logo=trophy)
+![Developer Banner](https://img.shields.io/badge/Building-Secure%20Solutions-success?style=for-the-badge&logo=code)
 
 </div>
 
 ---
 
-🌟 **Welcome to the Indi Gamification Initiative!** We're on a mission to revolutionize how developers learn, collaborate, and grow by infusing the power of gamification into the development ecosystem. 
+Welcome! I'm a software developer passionate about building **secure, privacy-focused applications** and exploring cutting-edge **AI/ML technologies**. My work spans from Progressive Web Apps to native mobile development, with a strong emphasis on security best practices and modern development tools. 
 
-## ⭐ Starred Repositories Showcase
+## 🔐 Featured Projects
 
-**[Explore Our Full Project Portfolio →](./pages/showcase.js)**
+### TrustVault Ecosystem
 
-Discover our curated collection of gamified development tools and platforms! Each repository in our showcase features:
+A comprehensive security-focused credential management solution with cross-platform support:
 
-- 🏗️ **Detailed Technical Architecture** - Frontend, backend, database, and deployment stack
-- ⚙️ **System Design Overview** - Design patterns, security, scalability, and performance considerations
-- 🎨 **Product Design** - UX approach, key features, user flows, and accessibility
-- 📦 **Ready-to-Use Builds** - Download and installation links for all platforms
-- 🌐 **Live Demos** - Try the applications before installing
+| Project | Description | Tech Stack | Status |
+|---------|-------------|------------|--------|
+| **[TrustVault PWA](https://github.com/iAn-P1nt0/TrustVault-PWA)** | Security-focused Progressive Web App | React 19, TypeScript 5.7, Vite 6 | [![Live](https://img.shields.io/badge/Live-Demo-success)](https://trustvault-pwa.vercel.app) |
+| **[TrustVault Android](https://github.com/iAn-P1nt0/TrustVault-Android)** | Native Android companion app | Kotlin, Jetpack Compose, Material 3 | ![In Dev](https://img.shields.io/badge/Status-Development-yellow) |
+| **[TrustVault Utils](https://github.com/iAn-P1nt0/TrustVault-password-utils)** | Password utility library | TypeScript | ![Utils](https://img.shields.io/badge/Type-Library-blue) |
 
-**Visit the [Showcase Page](#) to explore all projects with complete technical documentation and download links!**
+### Key Features
 
-## 🚀 Our Proposed Initiatives
+- 🔒 **Zero-Knowledge Encryption**: AES-256-GCM client-side encryption
+- 📱 **Cross-Platform**: Works on Web, Android, iOS, and Desktop
+- 🔌 **Offline-First**: Full functionality without internet connection
+- 👆 **Biometric Auth**: Fingerprint and face recognition (Android)
+- 🎨 **Modern UI**: Clean, intuitive design with accessibility support
 
-### 🏅 **CodeQuest Platform**
-Transform coding challenges into epic adventures! Developers embark on coding quests, earn XP for solving problems, and unlock achievement badges. Think LeetCode meets RPG gaming.
+**[View Live Demo →](https://trustvault-pwa.vercel.app)**
 
-**Key Features:**
-- 🗺️ **Adventure Maps**: Structured learning paths through different technologies
-- ⚔️ **Boss Battles**: Complex project challenges that require team collaboration  
-- 🎖️ **Guild System**: Team up with other developers for collaborative projects
-- 📊 **Leaderboards**: Weekly/monthly coding competitions with real rewards
+## ⭐ Starred Repositories
 
-### 🎯 **DevFlow Gamification Engine**
-Integrate gamification directly into development workflows and popular IDEs.
+I actively follow and star repositories that align with my interests in security, AI/ML, and modern development tools.
 
-**Innovative Features:**
-- 💎 **Commit Streaks**: Maintain coding momentum with streak rewards
-- 🔥 **Code Quality Scores**: Real-time feedback on code maintainability and performance
-- 🏆 **Team Challenges**: Sprint-based team competitions
-- 🎁 **Achievement System**: Unlock rewards for reaching development milestones
+**[View Full Showcase →](https://your-site-url.vercel.app/showcase)** *(includes detailed technical architecture for each project)*
 
-### 🌱 **Learning Pathway Adventures** 
-Structured, game-like learning experiences for new technologies and frameworks.
+### Notable Starred Projects
 
-**Experience Includes:**
-- 🗺️ **Skill Trees**: Visual progression through technology mastery
-- 🎪 **Interactive Workshops**: Hands-on coding experiences with instant feedback
-- 👥 **Mentorship Matching**: Connect learners with experienced developers
-- 📈 **Progress Tracking**: Detailed analytics on learning journey
+**AI & Machine Learning:**
+- 🤖 **[vLLM](https://github.com/vllm-project/vllm)** - High-throughput LLM inference engine (63k+ ⭐)
+- 🧠 **[awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** - Collection of LLM applications with RAG (77k+ ⭐)
+- 🏠 **[LocalAI](https://github.com/mudler/LocalAI)** - Open-source OpenAI alternative for local execution (38k+ ⭐)
+- 🎯 **[Anthropic Skills](https://github.com/anthropics/skills)** - Claude Skills framework (16k+ ⭐)
 
-### 🤝 **Open Source Contribution Games**
-Gamify the open source contribution experience to encourage community participation.
+**Developer Tools:**
+- 🎨 **[Excalidraw](https://github.com/excalidraw/excalidraw)** - Virtual whiteboard for diagrams (110k+ ⭐)
+- 📱 **[NowInAndroid](https://github.com/android/nowinandroid)** - Modern Android architecture reference (19k+ ⭐)
+- 💰 **[Wealthfolio](https://github.com/afadil/wealthfolio)** - Investment tracking application (5k+ ⭐)
 
-**Community Features:**
-- 🌟 **Contribution Challenges**: Monthly themed contribution drives
-- 🏅 **Maintainer Recognition**: Special badges and rewards for project maintainers
-- 🎊 **Hackathon Integration**: Seamlessly organize and participate in coding events
-- 📝 **Documentation Quests**: Make documentation writing engaging and rewarding
+**Learning Resources:**
+- 📚 **[Free Certifications](https://github.com/cloudcommunity/Free-Certifications)** - Curated list of free courses (43k+ ⭐)
+- 🔧 **[Awesome AI Coding Tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** - AI-powered dev tools (1k+ ⭐)
 
 ---
 
-## 🔐 TrustVault PWA - Featured Project
+## 💡 Technical Interests
 
-<div align="center">
+### 🤖 AI & Machine Learning
+Exploring the frontiers of artificial intelligence with a focus on practical applications:
+- Large Language Models (GPT, Claude, open-source alternatives)
+- Inference optimization (vLLM, efficient model serving)
+- RAG systems (Retrieval Augmented Generation)
+- AI-powered developer tools and productivity
 
-### 🎮 **Level Up Your Security Game**
+### 🔐 Security & Privacy
+Committed to building applications that respect user privacy:
+- Zero-Knowledge Architecture
+- End-to-End Encryption
+- OWASP security guidelines
+- Modern authentication patterns (Biometric, OAuth)
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-trust--vault--pwa.vercel.app-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://trust-vault-pwa.vercel.app)
-[![Install PWA](https://img.shields.io/badge/📱%20Install%20PWA-Android%20%7C%20iOS%20%7C%20Desktop-4285F4?style=for-the-badge&logo=pwa&logoColor=white)](https://trust-vault-pwa.vercel.app)
-
-<br/>
-
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://trust-vault-pwa.vercel.app" alt="TrustVault QR Code" width="200" height="200">
-
-**Scan to install TrustVault PWA on any device** 📲
-
-</div>
-
-### 🏆 **Gamified Security Excellence**
-
-<div align="center">
-
-| 🏆 **OWASP Top 10 2025** | ⚡ **Lighthouse Score** | 🎯 **Architecture** |
-|:---:|:---:|:---:|
-| ✅ Fully Compliant | 95+ Performance | Zero-Knowledge Security |
-
-</div>
-
-**TrustVault** is our flagship gamification initiative that transforms credential management into an engaging developer achievement system. Built as a Progressive Web App, it showcases how security can be both robust and enjoyable through gamified user experiences.
-
-### 🗺️ **Developer Achievement Roadmap**
-
-```
-Level 1: Beginner Security Warrior 🛡️
-  └─> Install TrustVault PWA
-  
-Level 2: Credential Apprentice 🔑
-  └─> Store your first secure credential
-  
-Level 3: Offline Warrior 💪
-  └─> Access credentials without internet
-  
-Level 4: Encryption Master 🔐
-  └─> Master zero-knowledge encryption
-  
-Level 5: PWA Champion 🏆
-  └─> Unlock all platform features
-  
-FINAL BOSS: Security Guild Leader 👑
-  └─> Contribute to TrustVault development
-```
-
-### 🎯 **Quick Start Your Security Quest**
-
-<div align="center">
-
-**Choose Your Platform:**
-
-[![Android Install](https://img.shields.io/badge/Android-Install%20PWA-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://trust-vault-pwa.vercel.app)
-[![iOS Install](https://img.shields.io/badge/iOS-Add%20to%20Home-000000?style=for-the-badge&logo=apple&logoColor=white)](https://trust-vault-pwa.vercel.app)
-[![Windows Install](https://img.shields.io/badge/Windows-Install%20App-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://trust-vault-pwa.vercel.app)
-[![Mac Install](https://img.shields.io/badge/macOS-Install%20App-000000?style=for-the-badge&logo=apple&logoColor=white)](https://trust-vault-pwa.vercel.app)
-
-</div>
-
-> 💡 **Pro Tip**: Check out our [detailed SHOWCASE.md](./SHOWCASE.md) for achievement badges, XP metrics, and the complete security quest guide!
+### 🚀 Modern Development Stack
+Passionate about leveraging the latest tools and frameworks:
+- **Frontend**: React 19, TypeScript, Vite, Progressive Web Apps
+- **Mobile**: Kotlin, Jetpack Compose, Material Design 3
+- **Backend**: Python, Node.js, FastAPI, serverless architectures
+- **Design**: Accessibility-first, responsive design, modern UX patterns
 
 ---
 
-## 🎯 Why Gamification in Development?
+## 🎯 Development Philosophy
 
-<div align="center">
+### Core Values
+- 🛡️ **Privacy by Design**: User data protection built into every layer
+- ♿ **Accessibility**: Ensuring applications are usable by everyone
+- 🌍 **Open Source**: Contributing to and learning from the community
+- 📚 **Continuous Learning**: Staying current with emerging technologies
 
-| 🧠 **Enhanced Learning** | 🤝 **Community Building** | 🚀 **Motivation Boost** |
-|:---:|:---:|:---:|
-| Interactive experiences improve retention by 75% | Foster collaboration through team challenges | Achievement systems increase engagement by 90% |
-
-</div>
-
-### 🔥 **The Impact We're Creating**
-- **📈 Increased Productivity**: Developers report 40% higher coding motivation
-- **🎓 Accelerated Learning**: New developers complete learning paths 3x faster  
-- **🌟 Community Growth**: 85% increase in open source contributions
-- **💡 Innovation**: Gamified environments spark creative problem-solving
-
----
-
-## 🚀 Get Involved!
-
-Ready to level up the development experience? Here's how you can join our mission:
-
-### 🔗 **For Developers**
-- 🌟 **Star this repository** to show your support
-- 🍴 **Fork and contribute** to our open source initiatives  
-- 💡 **Share your ideas** for new gamification features
-- 🐛 **Report bugs** or suggest improvements
-
-### 🏢 **For Organizations**
-- 🤝 **Partner with us** to implement gamification in your development teams
-- 💰 **Sponsor initiatives** to accelerate development and reach more developers
-- 📊 **Pilot programs** available for early adopters
-
-### 🎓 **For Educators**
-- 📚 **Integrate our tools** into your coding curriculum
-- 👨‍🏫 **Become a mentor** in our learning pathway adventures
-- 🎯 **Design challenges** for student developers
+### Code Quality Standards
+- Security-first approach following OWASP guidelines
+- Comprehensive testing and code coverage
+- Modern architecture patterns (Clean Architecture, MVVM)
+- Performance optimization and monitoring
+- Accessibility compliance (WCAG 2.1)
 
 ---
 
+## 🤝 Let's Connect!
+
+Interested in collaborating, discussing technology, or exploring my projects?
+
 <div align="center">
 
-## 🌐 Connect With Us
+### Find Me Online
 
-<h3>Join the revolution and help us gamify the future of development!</h3>
-
-<a href="https://github.com/indi-gamification-initiative" target="_blank">
-  <img alt="GitHub Organization" src="https://img.shields.io/badge/GitHub-indi--gamification--initiative-181717?style=for-the-badge&logo=github&logoColor=white" />
+<a href="https://github.com/iAn-P1nt0" target="_blank">
+  <img alt="GitHub Profile" src="https://img.shields.io/badge/GitHub-iAn--P1nt0-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
-<a href="mailto:initiative@indigaindev.org" target="_blank">
-  <img alt="Email" src="https://img.shields.io/badge/Email-initiative@indigaindev.org-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+<a href="https://github.com/iAn-P1nt0/TrustVault-PWA" target="_blank">
+  <img alt="TrustVault PWA" src="https://img.shields.io/badge/TrustVault-PWA-4285F4?style=for-the-badge&logo=pwa&logoColor=white" />
 </a>
-<a href="#" target="_blank">
-  <img alt="Discord" src="https://img.shields.io/badge/Discord-Join%20Our%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
-</a>
-<a href="#" target="_blank">
-  <img alt="Twitter" src="https://img.shields.io/badge/Twitter-@IndiGamifyDev-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+<a href="https://trustvault-pwa.vercel.app" target="_blank">
+  <img alt="Live Demo" src="https://img.shields.io/badge/Live-Demo-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
 
-### 🏆 Current Status: Building the Future
-![Progress](https://img.shields.io/badge/Development-In%20Progress-yellow?style=for-the-badge&logo=construction)
-![Contributors Welcome](https://img.shields.io/badge/Contributors-Welcome-brightgreen?style=for-the-badge&logo=handshake)
+### 🚀 Project Status
+
+![TrustVault](https://img.shields.io/badge/TrustVault-Active%20Development-success?style=for-the-badge&logo=shield)
+![Open Source](https://img.shields.io/badge/Open%20Source-Welcome-brightgreen?style=for-the-badge&logo=opensourceinitiative)
 
 ---
 
-*Built with 💙 by developers, for developers*
+### Current Focus
 
-**✨ Remember: Every expert was once a beginner. Every game-changer was once a newbie. Let's level up together! ✨**
+- 🔐 **TrustVault Development**: Enhancing PWA and Android apps
+- 🤖 **AI Integration**: Exploring LLM applications and tools
+- 📱 **Mobile Development**: Modern Android with Kotlin & Compose
+- 🌐 **Web Technologies**: React 19, TypeScript, and PWAs
+
+---
+
+*Building secure, privacy-focused solutions with modern technology*
+
+**Thanks for visiting! Feel free to explore my projects and reach out if you'd like to collaborate.**
 
 </div>
+
+---
+
+## 📄 License
+
+Individual projects have their own licenses. Please check each repository for specific licensing information.
+
+- **TrustVault Projects**: Apache 2.0 License

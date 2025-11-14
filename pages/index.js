@@ -7,128 +7,103 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Indi Gamification Initiative</title>
-        <meta name="description" content="Transforming Development Through Gamification - Level Up Your Code!" />
+        <title>Ian Pinto - Software Developer Portfolio</title>
+        <meta name="description" content="Software developer passionate about security, AI/ML, and modern development. Creator of TrustVault PWA and Android apps." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <div className={styles.badges}>
-          <img src="https://komarev.com/ghpvc/?username=indi-gamification-initiative&color=blueviolet&style=for-the-badge" alt="Visitors" />
-          <img src="https://img.shields.io/badge/Made%20with-❤️-for%20Developers-ff69b4.svg?style=for-the-badge" alt="Made with Love" />
-          <img src="https://img.shields.io/badge/Open%20Source-💚-brightgreen.svg?style=for-the-badge" alt="Open Source" />
-          <img src="https://img.shields.io/badge/Innovation-🚀-orange.svg?style=for-the-badge" alt="Innovation" />
+          <img src="https://komarev.com/ghpvc/?username=iAn-P1nt0&color=blueviolet&style=for-the-badge" alt="Profile Views" />
+          <img src="https://img.shields.io/badge/Security-First-red.svg?style=for-the-badge&logo=shield" alt="Security First" />
+          <img src="https://img.shields.io/badge/Open%20Source-Contributor-brightgreen.svg?style=for-the-badge&logo=github" alt="Open Source" />
+          <img src="https://img.shields.io/badge/AI%2FML-Explorer-blue.svg?style=for-the-badge&logo=tensorflow" alt="AI/ML" />
         </div>
 
         <div className={styles.hero}>
           <h1 className={styles.title}>
-            🎮 Indi Gamification Initiative
+            Ian Pinto
           </h1>
           <h3 className={styles.subtitle}>
-            <em>Transforming Development Through Gamification</em>
+            <em>Software Developer | Security Enthusiast | AI Explorer</em>
           </h3>
-          <img src="https://img.shields.io/badge/🏆%20Level%20Up%20Your%20Code-Game%20On!-success?style=for-the-badge&logo=trophy" alt="Gamification Banner" />
+          <img src="https://img.shields.io/badge/Building-Secure%20Solutions-success?style=for-the-badge&logo=shield" alt="Developer Banner" />
         </div>
 
         <div className={styles.separator}></div>
 
         <div className={styles.content}>
+          <p className={styles.welcome}>
+            Welcome! I&apos;m a software developer passionate about building secure, privacy-focused applications
+            and exploring cutting-edge AI/ML technologies. My work spans from Progressive Web Apps to native mobile development,
+            with a strong emphasis on security best practices and modern development tools.
+          </p>
+
           <section className={styles.section}>
-            <h2>🧭 Quick Navigation</h2>
+            <h2>🧭 Explore My Work</h2>
             <div className={styles.quickNav}>
               <Link href="/showcase" className={styles.navCard}>
                 <div className={styles.navIcon}>⭐</div>
                 <h3>Starred Repositories</h3>
-                <p>Explore our curated projects with technical details</p>
+                <p>Curated collection of projects I follow and admire</p>
               </Link>
-              <Link href="/getting-started" className={styles.navCard}>
-                <div className={styles.navIcon}>🚀</div>
-                <h3>Getting Started</h3>
-                <p>Begin your gamified development journey</p>
-              </Link>
-              <Link href="/research" className={styles.navCard}>
-                <div className={styles.navIcon}>📊</div>
-                <h3>Research & Data</h3>
-                <p>Academic studies and proven methodologies</p>
-              </Link>
-              <Link href="/demos" className={styles.navCard}>
-                <div className={styles.navIcon}>🎮</div>
-                <h3>Live Demos</h3>
-                <p>Try our platforms in action</p>
-              </Link>
+              <a href="https://github.com/iAn-P1nt0/TrustVault-PWA" target="_blank" rel="noopener noreferrer" className={styles.navCard}>
+                <div className={styles.navIcon}>🔐</div>
+                <h3>TrustVault PWA</h3>
+                <p>Security-focused credential manager</p>
+              </a>
+              <a href="https://github.com/iAn-P1nt0/TrustVault-Android" target="_blank" rel="noopener noreferrer" className={styles.navCard}>
+                <div className={styles.navIcon}>📱</div>
+                <h3>TrustVault Android</h3>
+                <p>Native Android companion app</p>
+              </a>
+              <a href="https://github.com/iAn-P1nt0" target="_blank" rel="noopener noreferrer" className={styles.navCard}>
+                <div className={styles.navIcon}>💻</div>
+                <h3>GitHub Profile</h3>
+                <p>Explore all my projects and contributions</p>
+              </a>
             </div>
           </section>
 
           <div className={styles.separator}></div>
 
-          <p className={styles.welcome}>
-            🌟 <strong>Welcome to the Indi Gamification Initiative!</strong> We&apos;re on a mission to revolutionize how developers learn, collaborate, and grow by infusing the power of gamification into the development ecosystem.
-          </p>
-
           <section className={styles.section}>
-            <h2>🚀 Our Proposed Initiatives</h2>
+            <h2>🔐 Featured Project: TrustVault Ecosystem</h2>
 
             <div className={styles.initiative}>
-              <h3>🏅 CodeQuest Platform</h3>
-              <p>Transform coding challenges into epic adventures! Developers embark on coding quests, earn XP for solving problems, and unlock achievement badges. Think LeetCode meets RPG gaming.</p>
-              
-              <h4>Key Features:</h4>
+              <h3>🌐 TrustVault PWA</h3>
+              <p>A cutting-edge Progressive Web App for secure credential management, built with React 19, TypeScript 5.7, and Vite 6.
+                 Features zero-knowledge encryption architecture ensuring your data remains completely private.</p>
+
+              <h4>Technical Highlights:</h4>
               <ul>
-                <li>🗺️ <strong>Adventure Maps</strong>: Structured learning paths through different technologies</li>
-                <li>⚔️ <strong>Boss Battles</strong>: Complex project challenges that require team collaboration</li>
-                <li>🎖️ <strong>Guild System</strong>: Team up with other developers for collaborative projects</li>
-                <li>📊 <strong>Leaderboards</strong>: Weekly/monthly coding competitions with real rewards</li>
+                <li>🔐 <strong>Zero-Knowledge Encryption</strong>: AES-256-GCM client-side encryption</li>
+                <li>⚡ <strong>Modern Stack</strong>: React 19, TypeScript 5.7, Vite 6 for optimal performance</li>
+                <li>📱 <strong>Cross-Platform PWA</strong>: Works on Android, iOS, Desktop, and Web</li>
+                <li>🔌 <strong>Offline-First</strong>: Full functionality without internet connection</li>
+                <li>🎨 <strong>Modern UI</strong>: Clean, intuitive interface with accessibility in mind</li>
               </ul>
               <div className={styles.initiativeLinks}>
-                <Link href="/codequest" className={styles.learnMore}>Learn More →</Link>
+                <a href="https://trustvault-pwa.vercel.app" target="_blank" rel="noopener noreferrer" className={styles.learnMore}>Live Demo →</a>
+                <a href="https://github.com/iAn-P1nt0/TrustVault-PWA" target="_blank" rel="noopener noreferrer" className={styles.learnMore}>View on GitHub →</a>
               </div>
             </div>
 
             <div className={styles.initiative}>
-              <h3>🎯 DevFlow Gamification Engine</h3>
-              <p>Integrate gamification directly into development workflows and popular IDEs.</p>
-              
-              <h4>Innovative Features:</h4>
-              <ul>
-                <li>💎 <strong>Commit Streaks</strong>: Maintain coding momentum with streak rewards</li>
-                <li>🔥 <strong>Code Quality Scores</strong>: Real-time feedback on code maintainability and performance</li>
-                <li>🏆 <strong>Team Challenges</strong>: Sprint-based team competitions</li>
-                <li>🎁 <strong>Achievement System</strong>: Unlock rewards for reaching development milestones</li>
-              </ul>
-              <div className={styles.initiativeLinks}>
-                <Link href="/devflow" className={styles.learnMore}>Learn More →</Link>
-              </div>
-            </div>
+              <h3>📱 TrustVault Android</h3>
+              <p>Native Android companion application built with Kotlin and modern Android architecture patterns.
+                 Leverages Android Keystore and biometric authentication for enhanced security.</p>
 
-            <div className={styles.initiative}>
-              <h3>🌱 Learning Pathway Adventures</h3>
-              <p>Structured, game-like learning experiences for new technologies and frameworks.</p>
-              
-              <h4>Experience Includes:</h4>
+              <h4>Android Excellence:</h4>
               <ul>
-                <li>🗺️ <strong>Skill Trees</strong>: Visual progression through technology mastery</li>
-                <li>🎪 <strong>Interactive Workshops</strong>: Hands-on coding experiences with instant feedback</li>
-                <li>👥 <strong>Mentorship Matching</strong>: Connect learners with experienced developers</li>
-                <li>📈 <strong>Progress Tracking</strong>: Detailed analytics on learning journey</li>
+                <li>🏗️ <strong>Modern Architecture</strong>: MVVM with Clean Architecture principles</li>
+                <li>🎨 <strong>Material Design 3</strong>: Beautiful native Android experience with Material You</li>
+                <li>👆 <strong>Biometric Auth</strong>: Fingerprint and face recognition support</li>
+                <li>💾 <strong>Encrypted Storage</strong>: Room Database with SQLCipher encryption</li>
+                <li>🔄 <strong>Kotlin Coroutines</strong>: Efficient async operations and state management</li>
               </ul>
               <div className={styles.initiativeLinks}>
-                <a href="/learning" className={styles.learnMore}>Learn More →</a>
-              </div>
-            </div>
-
-            <div className={styles.initiative}>
-              <h3>🤝 Open Source Contribution Games</h3>
-              <p>Gamify the open source contribution experience to encourage community participation.</p>
-              
-              <h4>Community Features:</h4>
-              <ul>
-                <li>🌟 <strong>Contribution Challenges</strong>: Monthly themed contribution drives</li>
-                <li>🏅 <strong>Maintainer Recognition</strong>: Special badges and rewards for project maintainers</li>
-                <li>🎊 <strong>Hackathon Integration</strong>: Seamlessly organize and participate in coding events</li>
-                <li>📝 <strong>Documentation Quests</strong>: Make documentation writing engaging and rewarding</li>
-              </ul>
-              <div className={styles.initiativeLinks}>
-                <a href="/opensource" className={styles.learnMore}>Learn More →</a>
+                <a href="https://github.com/iAn-P1nt0/TrustVault-Android" target="_blank" rel="noopener noreferrer" className={styles.learnMore}>View on GitHub →</a>
               </div>
             </div>
           </section>
@@ -136,64 +111,117 @@ export default function Home() {
           <div className={styles.separator}></div>
 
           <section className={styles.section}>
-            <h2>🎯 Why Gamification in Development?</h2>
-            
+            <h2>💡 Technical Interests</h2>
+
+            <div className={styles.initiative}>
+              <h3>🤖 AI & Machine Learning</h3>
+              <p>Exploring the frontiers of artificial intelligence with a focus on practical applications and emerging technologies.</p>
+
+              <h4>Areas of Focus:</h4>
+              <ul>
+                <li>🧠 <strong>Large Language Models</strong>: Following developments in GPT, Claude, and open-source alternatives</li>
+                <li>⚡ <strong>Inference Optimization</strong>: vLLM, LocalAI, and efficient model serving</li>
+                <li>📚 <strong>RAG Systems</strong>: Retrieval Augmented Generation for intelligent applications</li>
+                <li>🔧 <strong>AI Tools</strong>: Claude Skills, coding assistants, and developer productivity</li>
+              </ul>
+            </div>
+
+            <div className={styles.initiative}>
+              <h3>🔐 Security & Privacy</h3>
+              <p>Committed to building applications that respect user privacy and follow security best practices.</p>
+
+              <h4>Core Principles:</h4>
+              <ul>
+                <li>🛡️ <strong>Zero-Knowledge Architecture</strong>: Data encryption that even servers can&apos;t access</li>
+                <li>🔒 <strong>End-to-End Encryption</strong>: Protecting data in transit and at rest</li>
+                <li>🎯 <strong>OWASP Guidelines</strong>: Following industry standards for secure development</li>
+                <li>🔑 <strong>Modern Auth</strong>: Biometric, OAuth, and secure authentication patterns</li>
+              </ul>
+            </div>
+
+            <div className={styles.initiative}>
+              <h3>🚀 Modern Development</h3>
+              <p>Passionate about leveraging the latest tools and frameworks to build exceptional user experiences.</p>
+
+              <h4>Technology Stack:</h4>
+              <ul>
+                <li>⚛️ <strong>Frontend</strong>: React 19, TypeScript, Vite, Progressive Web Apps</li>
+                <li>📱 <strong>Mobile</strong>: Kotlin, Jetpack Compose, Material Design 3</li>
+                <li>🐍 <strong>Backend</strong>: Python, Node.js, FastAPI, serverless architectures</li>
+                <li>🎨 <strong>Design</strong>: Accessibility-first, responsive design, modern UX patterns</li>
+              </ul>
+            </div>
+          </section>
+
+          <div className={styles.separator}></div>
+
+          <section className={styles.section}>
+            <h2>🎯 Development Philosophy</h2>
+
             <div className={styles.impactTable}>
               <div className={styles.impactCard}>
-                <h4>🧠 Enhanced Learning</h4>
-                <p>Interactive experiences improve retention by 75%</p>
+                <h4>🔒 Security First</h4>
+                <p>Every feature designed with privacy and security as foundational principles</p>
               </div>
               <div className={styles.impactCard}>
-                <h4>🤝 Community Building</h4>
-                <p>Foster collaboration through team challenges</p>
+                <h4>📱 User Experience</h4>
+                <p>Building intuitive interfaces that make complex tasks simple</p>
               </div>
               <div className={styles.impactCard}>
-                <h4>🚀 Motivation Boost</h4>
-                <p>Achievement systems increase engagement by 90%</p>
+                <h4>🚀 Modern Tech</h4>
+                <p>Leveraging cutting-edge tools and frameworks for optimal performance</p>
               </div>
             </div>
 
-            <h3>🔥 The Impact We&apos;re Creating</h3>
+            <h3>🔥 Core Values</h3>
             <ul>
-              <li><strong>📈 Increased Productivity</strong>: Developers report 40% higher coding motivation</li>
-              <li><strong>🎓 Accelerated Learning</strong>: New developers complete learning paths 3x faster</li>
-              <li><strong>🌟 Community Growth</strong>: 85% increase in open source contributions</li>
-              <li><strong>💡 Innovation</strong>: Gamified environments spark creative problem-solving</li>
+              <li><strong>🛡️ Privacy by Design</strong>: User data protection built into every layer of the architecture</li>
+              <li><strong>♿ Accessibility</strong>: Ensuring applications are usable by everyone, regardless of ability</li>
+              <li><strong>🌍 Open Source</strong>: Contributing to and learning from the developer community</li>
+              <li><strong>📚 Continuous Learning</strong>: Staying current with emerging technologies and best practices</li>
             </ul>
           </section>
 
           <div className={styles.separator}></div>
 
           <section className={styles.section}>
-            <h2>🚀 Get Involved!</h2>
-            <p>Ready to level up the development experience? Here&apos;s how you can join our mission:</p>
+            <h2>🤝 Let&apos;s Connect!</h2>
+            <p>Interested in collaborating, discussing technology, or exploring my projects?</p>
 
             <div className={styles.involvement}>
               <div className={styles.involveCard}>
-                <h3>🔗 For Developers</h3>
+                <h3>💻 GitHub</h3>
                 <ul>
-                  <li>🌟 <strong>Star this repository</strong> to show your support</li>
-                  <li>🍴 <strong>Fork and contribute</strong> to our open source initiatives</li>
-                  <li>💡 <strong>Share your ideas</strong> for new gamification features</li>
-                  <li>🐛 <strong>Report bugs</strong> or suggest improvements</li>
+                  <li>🌟 <strong>Explore my repositories</strong> and star projects you find interesting</li>
+                  <li>🐛 <strong>Report issues</strong> or contribute to open source projects</li>
+                  <li>💡 <strong>Share feedback</strong> on TrustVault and other initiatives</li>
+                  <li>🔄 <strong>Follow</strong> to stay updated on new projects</li>
                 </ul>
+                <a href="https://github.com/iAn-P1nt0" target="_blank" rel="noopener noreferrer" className={styles.learnMore}>
+                  Visit GitHub Profile →
+                </a>
               </div>
 
               <div className={styles.involveCard}>
-                <h3>🏢 For Organizations</h3>
+                <h3>⭐ Starred Projects</h3>
                 <ul>
-                  <li>🤝 <strong>Partner with us</strong> to implement gamification in your development teams</li>
-                  <li>💰 <strong>Sponsor initiatives</strong> to accelerate development and reach more developers</li>
-                  <li>📊 <strong>Pilot programs</strong> available for early adopters</li>
+                  <li>🤖 <strong>AI/ML Tools</strong>: vLLM, LocalAI, awesome-llm-apps</li>
+                  <li>🔐 <strong>Security</strong>: My own TrustVault ecosystem projects</li>
+                  <li>🎨 <strong>Developer Tools</strong>: Excalidraw, NowInAndroid</li>
+                  <li>📚 <strong>Learning Resources</strong>: Claude Skills, AI coding tools</li>
                 </ul>
+                <Link href="/showcase" className={styles.learnMore}>
+                  View Full Showcase →
+                </Link>
               </div>
 
               <div className={styles.involveCard}>
-                <h3>🎓 For Educators</h3>
+                <h3>🚀 Current Focus</h3>
                 <ul>
-                  <li>📚 <strong>Integrate our tools</strong> into your coding curriculum</li>
-                  <li>👨‍🏫 <strong>Become a mentor</strong> in our learning pathway adventures</li>
-                  <li>🎯 <strong>Design challenges</strong> for student developers</li>
+                  <li>🔐 <strong>TrustVault Development</strong>: Enhancing PWA and Android apps</li>
+                  <li>🤖 <strong>AI Integration</strong>: Exploring LLM applications and tools</li>
+                  <li>📱 <strong>Mobile Development</strong>: Modern Android with Kotlin & Compose</li>
+                  <li>🌐 <strong>Web Technologies</strong>: React 19, TypeScript, and PWAs</li>
                 </ul>
               </div>
             </div>
@@ -202,33 +230,30 @@ export default function Home() {
           <div className={styles.separator}></div>
 
           <section className={styles.connectSection}>
-            <h2>🌐 Connect With Us</h2>
-            <h3>Join the revolution and help us gamify the future of development!</h3>
+            <h2>🌐 Find Me Online</h2>
+            <h3>Let&apos;s connect and build something amazing together!</h3>
 
             <div className={styles.socialLinks}>
-              <a href="https://github.com/indi-gamification-initiative" target="_blank" rel="noopener noreferrer">
-                <img src="https://img.shields.io/badge/GitHub-indi--gamification--initiative-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Organization" />
+              <a href="https://github.com/iAn-P1nt0" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.shields.io/badge/GitHub-iAn--P1nt0-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
               </a>
-              <a href="mailto:initiative@indigaindev.org" target="_blank" rel="noopener noreferrer">
-                <img src="https://img.shields.io/badge/Email-initiative@indigaindev.org-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+              <a href="https://github.com/iAn-P1nt0/TrustVault-PWA" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.shields.io/badge/TrustVault-PWA-4285F4?style=for-the-badge&logo=pwa&logoColor=white" alt="TrustVault PWA" />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <img src="https://img.shields.io/badge/Discord-Join%20Our%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-              </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <img src="https://img.shields.io/badge/Twitter-@IndiGamifyDev-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+              <a href="https://trustvault-pwa.vercel.app" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.shields.io/badge/Live-Demo-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
               </a>
             </div>
 
-            <h3>🏆 Current Status: Building the Future</h3>
+            <h3>🚀 Project Status</h3>
             <div className={styles.statusBadges}>
-              <img src="https://img.shields.io/badge/Development-In%20Progress-yellow?style=for-the-badge&logo=construction" alt="Progress" />
-              <img src="https://img.shields.io/badge/Contributors-Welcome-brightgreen?style=for-the-badge&logo=handshake" alt="Contributors Welcome" />
+              <img src="https://img.shields.io/badge/TrustVault-Active%20Development-success?style=for-the-badge&logo=shield" alt="Active Development" />
+              <img src="https://img.shields.io/badge/Open%20Source-Welcome-brightgreen?style=for-the-badge&logo=opensourceinitiative" alt="Open Source" />
             </div>
 
             <div className={styles.footer}>
-              <p><em>Built with 💙 by developers, for developers</em></p>
-              <p><strong>✨ Remember: Every expert was once a beginner. Every game-changer was once a newbie. Let&apos;s level up together! ✨</strong></p>
+              <p><em>Building secure, privacy-focused solutions with modern technology</em></p>
+              <p><strong>Thanks for visiting! Feel free to explore my projects and reach out if you&apos;d like to collaborate.</strong></p>
             </div>
           </section>
         </div>
