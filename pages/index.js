@@ -229,6 +229,26 @@ export default function Home() {
 
           <div className={styles.separator}></div>
 
+          <section className={styles.sponsorSection}>
+            <h2>💖 Support My Work</h2>
+            <p>
+              If you find my projects valuable and want to support continued development,
+              consider sponsoring me on GitHub. Your support helps me dedicate more time
+              to open source and building tools that benefit the community.
+            </p>
+            <div className={styles.sponsorCardWrapper}>
+              <iframe 
+                src="https://github.com/sponsors/iAn-P1nt0/card" 
+                title="Sponsor iAn-P1nt0" 
+                height="225" 
+                width="600" 
+                style={{ border: 0 }}
+              ></iframe>
+            </div>
+          </section>
+
+          <div className={styles.separator}></div>
+
           <section className={styles.connectSection}>
             <h2>🌐 Find Me Online</h2>
             <h3>Let&apos;s connect and build something amazing together!</h3>
