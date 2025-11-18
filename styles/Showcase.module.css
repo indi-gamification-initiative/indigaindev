@@ -1,22 +1,47 @@
 .container {
   min-height: 100vh;
   padding: 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, 
+    var(--color-bg-primary, #0F172A) 0%, 
+    #1a1f3a 25%,
+    #2d1b4e 50%,
+    #1a1f3a 75%,
+    var(--color-bg-primary, #0F172A) 100%);
+  position: relative;
+  overflow-x: hidden;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: 
+    radial-gradient(circle at 20% 20%, rgba(99, 102, 241, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(236, 72, 153, 0.15) 0%, transparent 50%);
+  pointer-events: none;
 }
 
 .main {
   padding: 2rem;
   max-width: 1400px;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 
 .header {
   text-align: center;
   margin-bottom: 3rem;
   padding: 2rem;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.08);
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(16px);
+  color: var(--color-text-primary, #F8FAFC);
 }
 
 .backLink {
@@ -25,14 +50,14 @@
 }
 
 .backLink a {
-  color: #667eea;
+  color: var(--color-primary-light, #818CF8);
   text-decoration: none;
   font-weight: 600;
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backLink a:hover {
-  color: #764ba2;
+  color: var(--color-secondary-light, #FBBF24);
   transform: translateX(-5px);
   display: inline-block;
 }
@@ -40,15 +65,18 @@
 .title {
   font-size: 3rem;
   margin: 0.5rem 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, 
+    var(--color-primary-light, #818CF8) 0%, 
+    var(--color-secondary-light, #FBBF24) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-weight: 700;
 }
 
 .subtitle {
   font-size: 1.2rem;
-  color: #555;
+  color: var(--color-text-secondary, #CBD5E1);
   max-width: 800px;
   margin: 1rem auto;
   line-height: 1.6;
@@ -64,33 +92,39 @@
 
 .categoryButton {
   padding: 0.7rem 1.5rem;
-  border: 2px solid #667eea;
-  background: white;
-  color: #667eea;
+  border: 2px solid var(--color-primary, #6366F1);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--color-primary-light, #818CF8);
   border-radius: 25px;
   font-weight: 600;
   font-size: 0.95rem;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(8px);
 }
 
 .categoryButton:hover {
-  background: #f0f0f0;
+  background: rgba(99, 102, 241, 0.2);
   transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
 }
 
 .categoryButton.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--color-primary, #6366F1) 0%, var(--color-primary-dark, #4F46E5) 100%);
   color: white;
-  border-color: #667eea;
+  border-color: var(--color-primary, #6366F1);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
 }
 
 .loading, .error {
   text-align: center;
   padding: 3rem;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.08);
   border-radius: 15px;
   margin: 2rem 0;
+  color: var(--color-text-primary, #F8FAFC);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .spinner {
@@ -104,7 +138,7 @@
 }
 
 .error {
-  color: #e74c3c;
+  color: var(--color-accent-pink, #EC4899);
   font-weight: 600;
 }
 
@@ -116,18 +150,20 @@
 }
 
 .repoCard {
-  background: rgba(255, 255, 255, 0.98);
+  background: rgba(255, 255, 255, 0.08);
   border-radius: 20px;
   padding: 2rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-  transition: all 0.3s ease;
-  border: 3px solid transparent;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(16px);
+  color: var(--color-text-primary, #F8FAFC);
 }
 
 .repoCard:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
-  border-color: #667eea;
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(99, 102, 241, 0.3);
+  border-color: var(--color-primary, #6366F1);
 }
 
 .repoHeader {
@@ -141,11 +177,12 @@
 .repoName {
   font-size: 1.8rem;
   margin: 0;
-  color: #2c3e50;
+  color: var(--color-primary-light, #818CF8);
   display: flex;
   align-items: center;
   gap: 0.5rem;
   flex: 1;
+  font-weight: 600;
 }
 
 .repoIcon {
@@ -160,23 +197,24 @@
 }
 
 .language {
-  background: #667eea;
+  background: linear-gradient(135deg, var(--color-primary, #6366F1), var(--color-primary-dark, #4F46E5));
   color: white;
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   font-size: 0.85rem;
   font-weight: 600;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);
 }
 
 .stars {
   font-weight: 600;
-  color: #f39c12;
+  color: var(--color-secondary-light, #FBBF24);
   font-size: 1rem;
 }
 
 .repoDescription {
   font-size: 1.1rem;
-  color: #555;
+  color: var(--color-text-secondary, #CBD5E1);
   line-height: 1.6;
   margin: 1rem 0 1.5rem 0;
 }
@@ -189,12 +227,13 @@
 }
 
 .topic {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--color-primary, #6366F1) 0%, var(--color-primary-dark, #4F46E5) 100%);
   color: white;
   padding: 0.4rem 0.9rem;
   border-radius: 15px;
   font-size: 0.85rem;
   font-weight: 500;
+  box-shadow: 0 2px 6px rgba(99, 102, 241, 0.25);
 }
 
 .technicalSection,
@@ -203,9 +242,10 @@
 .downloadSection {
   margin: 1.5rem 0;
   padding: 1.5rem;
-  background: #f8f9fa;
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 12px;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid var(--color-primary, #6366F1);
+  backdrop-filter: blur(8px);
 }
 
 .technicalSection h3,
@@ -213,8 +253,9 @@
 .productSection h3,
 .downloadSection h3 {
   margin: 0 0 1rem 0;
-  color: #2c3e50;
+  color: var(--color-primary-light, #818CF8);
   font-size: 1.3rem;
+  font-weight: 600;
 }
 
 .techDetails,
@@ -234,7 +275,7 @@
 .techItem strong,
 .systemItem strong,
 .productItem strong {
-  color: #667eea;
+  color: var(--color-secondary-light, #FBBF24);
   display: inline-block;
   min-width: 100px;
 }
@@ -246,7 +287,7 @@
 
 .featureList li {
   margin: 0.3rem 0;
-  color: #555;
+  color: var(--color-text-secondary, #CBD5E1);
 }
 
 .downloadButtons {
@@ -260,18 +301,19 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.8rem 1.5rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--color-primary, #6366F1) 0%, var(--color-primary-dark, #4F46E5) 100%);
   color: white;
   text-decoration: none;
   border-radius: 25px;
   font-weight: 600;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
 }
 
 .downloadButton:hover {
   transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
+  background: linear-gradient(135deg, var(--color-primary-light, #818CF8) 0%, var(--color-primary, #6366F1) 100%);
 }
 
 .downloadIcon {
@@ -283,7 +325,7 @@
   gap: 1rem;
   margin-top: 1.5rem;
   padding-top: 1.5rem;
-  border-top: 2px solid #e9ecef;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .githubLink,
@@ -292,8 +334,8 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.7rem 1.3rem;
-  border: 2px solid #667eea;
-  color: #667eea;
+  border: 2px solid var(--color-primary, #6366F1);
+  color: var(--color-primary-light, #818CF8);
   text-decoration: none;
   border-radius: 20px;
   font-weight: 600;
@@ -304,18 +346,22 @@
 
 .githubLink:hover,
 .homepageLink:hover {
-  background: #667eea;
+  background: linear-gradient(135deg, var(--color-primary, #6366F1), var(--color-primary-dark, #4F46E5));
   color: white;
   transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
 }
 
 .footer {
   text-align: center;
   margin-top: 3rem;
   padding: 2rem;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.08);
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: var(--color-text-primary, #F8FAFC);
 }
 
 .footer p {
@@ -324,7 +370,7 @@
 }
 
 .footer a {
-  color: #667eea;
+  color: var(--color-primary-light, #818CF8);
   font-weight: 600;
   text-decoration: none;
   transition: color 0.3s ease;
